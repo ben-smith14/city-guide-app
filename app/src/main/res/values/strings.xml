@@ -10,7 +10,12 @@
     <string name="category_transport">Transport</string>
 
     <string name="pound_signs">£££</string>
+
     <string name="open_in_maps">Open in Maps</string>
+    <string name="no_map_app">No map application available</string>
+    <string name="uk_country_code">+44</string>
+    <string name="no_phone_app">Device not capable of making calls</string>
+    <string name="no_browser_app">No internet browsers available</string>
 
     <!-- Food Fragment -->
     <string name="menu_gordon_jones">Menu Gordon Jones</string>

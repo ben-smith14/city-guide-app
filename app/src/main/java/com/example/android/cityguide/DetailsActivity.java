@@ -112,7 +112,7 @@ public class DetailsActivity extends AppCompatActivity {
                 if (mapIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(mapIntent);
                 } else {
-                    Toast.makeText(getApplicationContext(), "No map application available", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.no_map_app), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -134,7 +134,7 @@ public class DetailsActivity extends AppCompatActivity {
                     use this to prepare a phone opening intent
                     */
                     String numberToParse = phoneNumber.substring(1);
-                    numberToParse = "+44" + numberToParse;
+                    numberToParse = getString(R.string.uk_country_code) + numberToParse;
                     Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + numberToParse));
 
                     /*
@@ -144,7 +144,7 @@ public class DetailsActivity extends AppCompatActivity {
                     if (dialIntent.resolveActivity(getPackageManager()) != null) {
                         startActivity(dialIntent);
                     } else {
-                        Toast.makeText(getApplicationContext(), "Device not capable of making calls", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getString(R.string.no_phone_app), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
@@ -179,7 +179,7 @@ public class DetailsActivity extends AppCompatActivity {
                     if (browserIntent.resolveActivity(getPackageManager()) != null) {
                         startActivity(browserIntent);
                     } else {
-                        Toast.makeText(getApplicationContext(), "No internet browsers available", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), getString(R.string.no_browser_app), Toast.LENGTH_SHORT).show();
                     }
                 }
             });

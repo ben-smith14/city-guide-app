@@ -1,6 +1,7 @@
 package com.example.android.cityguide;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.text.Spannable;
@@ -31,9 +32,8 @@ public class CityLocationAdapter extends ArrayAdapter<CityLocation> {
         First, check if an existing view is being reused. If there isn't one available,
         inflate a new view from the layout file
         */
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item_citylocation, parent, false);
         }
 
@@ -41,20 +41,20 @@ public class CityLocationAdapter extends ArrayAdapter<CityLocation> {
         CityLocation currentCityLocation = getItem(position);
 
         if (currentCityLocation != null) {
-            ImageView itemImage = listItemView.findViewById(R.id.item_image);
+            ImageView itemImage = convertView.findViewById(R.id.item_image);
             itemImage.setImageResource(currentCityLocation.getImageResourceID());
 
-            TextView locationName = listItemView.findViewById(R.id.location_name);
+            TextView locationName = convertView.findViewById(R.id.location_name);
             locationName.setText(currentCityLocation.getLocationName());
 
-            TextView locationAddress = listItemView.findViewById(R.id.location_address);
+            TextView locationAddress = convertView.findViewById(R.id.location_address);
             locationAddress.setText(currentCityLocation.getLocationAddress());
 
             /*
             Display a constant number of tags for each location, or all of the tags if
             there is less than the constant value in the current CityLocation object
             */
-            TextView locationTags = listItemView.findViewById(R.id.tags_text);
+            TextView locationTags = convertView.findViewById(R.id.tags_text);
             String[] tagsArray = currentCityLocation.getLocationTags();
 
             if (tagsArray != null) {
@@ -87,7 +87,7 @@ public class CityLocationAdapter extends ArrayAdapter<CityLocation> {
             Display the price range of each location that has one by using 3 pound signs with
             varying characters in bold font
             */
-            TextView priceRange = listItemView.findViewById(R.id.price_range);
+            TextView priceRange = convertView.findViewById(R.id.price_range);
             int rangeValue = currentCityLocation.getPriceRange();
 
             // If the current location has no price range, hide the TextView
@@ -99,7 +99,7 @@ public class CityLocationAdapter extends ArrayAdapter<CityLocation> {
                 font style to certain characters in the price range string
                 */
                 SpannableStringBuilder poundSigns = new SpannableStringBuilder(mContext.getString(R.string.pound_signs));
-                StyleSpan boldStyle = new StyleSpan(android.graphics.Typeface.BOLD);
+                StyleSpan boldStyle = new StyleSpan(Typeface.BOLD);
 
                 if (rangeValue == Constants.LOW_PRICE) {
                     poundSigns.setSpan(boldStyle, 0, 1, Spannable.SPAN_INCLUSIVE_INCLUSIVE);
@@ -114,6 +114,6 @@ public class CityLocationAdapter extends ArrayAdapter<CityLocation> {
             }
         }
 
-        return listItemView;
+        return convertView;
     }
 }
