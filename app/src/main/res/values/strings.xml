@@ -1,0 +1,310 @@
+<resources>
+    <string name="app_name">CityGuide</string>
+    <string name="location_details">Location Details</string>
+
+    <string name="category_food">Food</string>
+    <string name="category_coffee">Coffee</string>
+    <string name="category_nightlife">Nightlife</string>
+    <string name="category_fun">Fun</string>
+    <string name="category_sights">Sights</string>
+    <string name="category_transport">Transport</string>
+
+    <string name="pound_signs">£££</string>
+    <string name="open_in_maps">Open in Maps</string>
+
+    <!-- Food Fragment -->
+    <string name="menu_gordon_jones">Menu Gordon Jones</string>
+    <string name="menu_gordon_jones_address">2 Wellsway, Bath BA2 3AQ, UK</string>
+    <string name="menu_gordon_jones_number">01225 480 871</string>
+    <string name="menu_gordon_jones_website">menugordonjones.co.uk</string>
+
+    <string name="hudson_steakhouse">Hudson Steakhouse</string>
+    <string name="hudson_steakhouse_address">14 London Street, Bath BA1 5BU, UK</string>
+    <string name="hudson_steakhouse_number">01225 332 323</string>
+    <string name="hudson_steakhouse_website">hudsonsteakhouse.co.uk</string>
+
+    <string name="sotto_sotto">Sotto Sotto</string>
+    <string name="sotto_sotto_address">10 North Parade, Bath BA2 4AL, UK</string>
+    <string name="sotto_sotto_number">01225 330 236</string>
+    <string name="sotto_sotto_website">sottosotto.co.uk</string>
+
+    <string name="mcdonalds">McDonald\'s</string>
+    <string name="mcdonalds_address">40 Southgate Street, Bath BA1 1TG, UK</string>
+    <string name="mcdonalds_number">01225 463 764</string>
+    <string name="mcdonalds_website">mcdonalds.co.uk</string>
+
+    <string name="mission_burrito">Mission Burrito</string>
+    <string name="mission_burrito_address">4 New Street, Bath BA1 2AF, UK</string>
+    <string name="mission_burrito_number">01225 442 599</string>
+    <string name="mission_burrito_website">missionburrito.co.uk</string>
+
+    <string name="loch_fyne">Loch Fyne</string>
+    <string name="loch_fyne_address">24 Milsom St, Bath BA1 1DG, UK</string>
+    <string name="loch_fyne_postcode">BA1 1DG</string>
+    <string name="loch_fyne_number">01225 750 120</string>
+    <string name="loch_fyne_website">lochfyneseafoodandgrill.co.uk</string>
+
+    <string name="the_globe">The Globe</string>
+    <string name="the_globe_address">Pennyquick, Newton St Loe, Bath BA2 9BB, UK</string>
+    <string name="the_globe_number">01225 872 891</string>
+    <string name="the_globe_website">vintageinn.co.uk</string>
+
+    <string name="the_olive_tree">The Olive Tree</string>
+    <string name="the_olive_tree_address">4&#8211;7 Russell Street, Bath BA1 2QF, UK</string>
+    <string name="the_olive_tree_number">01225 447 928</string>
+    <string name="the_olive_tree_website">olivetreebath.co.uk</string>
+
+    <!-- Coffee Fragment -->
+    <string name="boston_tea_party">Boston Tea Party</string>
+    <string name="boston_tea_party_address">19 Kingsmead Square, Bath BA1 2AE, UK</string>
+    <string name="boston_tea_party_number">01225 313 901</string>
+    <string name="boston_tea_party_website">bostonteaparty.co.uk</string>
+
+    <string name="cafe_lucca">Cafe Lucca</string>
+    <string name="cafe_lucca_address">1&#8211;2 Bartlett Street, Bath BA1 2QZ, UK</string>
+    <string name="cafe_lucca_number">01225 938 282</string>
+    <string name="cafe_lucca_website">cafelucca.co.uk</string>
+
+    <string name="mokoko_coffee">Mokoko Coffee</string>
+    <string name="mokoko_coffee_address">7 Dorchester Street, Bath BA1 1SS, UK</string>
+    <string name="mokoko_coffee_number">01225 333 444</string>
+    <string name="mokoko_coffee_website">mokokocoffee.com</string>
+
+    <string name="patisserie_valerie">Patisserie Valerie</string>
+    <string name="patisserie_valerie_address">20 High Street, City Centre, Bath BA1 5AJ, UK</string>
+    <string name="patisserie_valerie_number">01225 444 826</string>
+    <string name="patisserie_valerie_website">patisserie-valerie.co.uk</string>
+
+    <string name="cafe_au_lait">Cafe au Lait</string>
+    <string name="cafe_au_lait_address">12&#8211;14 Dorchester Street, Bath BA1 1SS, UK</string>
+    <string name="cafe_au_lait_number">01225 571 808</string>
+    <string name="cafe_au_lait_website">cafeaulaitcom.wordpress.com</string>
+
+    <string name="the_mad_hatters_tea_party">The Mad Hatter\'s Tea Party</string>
+    <string name="the_mad_hatters_tea_party_address">5 Orange Grove, Bath BA1 1LP, UK</string>
+    <string name="the_mad_hatters_tea_party_number">01225 466 733</string>
+    <string name="the_mad_hatters_tea_party_website">madhattersbath.co.uk</string>
+
+    <string name="the_colombian_company">The Colombian Company</string>
+    <string name="the_colombian_company_address">6 Abbeygate Street, Bath BA1 1NP, UK</string>
+    <string name="the_colombian_company_number">07534 391 992</string>
+    <string name="the_colombian_company_website">thecolombiancompany.com</string>
+
+    <string name="comins_tea">Comins Tea</string>
+    <string name="comins_tea_address">34 Monmouth Street, Bath BA1 2AN, UK</string>
+    <string name="comins_tea_number">01258 475 389</string>
+    <string name="comins_tea_website">cominstea.com</string>
+
+    <!-- Nightlife Fragment -->
+    <string name="the_second_bridge">The Second Bridge</string>
+    <string name="the_second_bridge_address">10 Manvers Street, Bath BA1 1JQ, UK</string>
+    <string name="the_second_bridge_number">01225 464 449</string>
+    <string name="the_second_bridge_website">secondbridge.co.uk</string>
+
+    <string name="zero_zero">Zero/Zero</string>
+    <string name="zero_zero_address">York Building, 1 George Street, Bath BA1 2EB, UK</string>
+    <string name="zero_zero_number">01225 470 040</string>
+    <string name="zero_zero_website">clubzerozero.com</string>
+
+    <string name="komedia">Komedia Bath</string>
+    <string name="komedia_address">22&#8211;23 Westgate Street, Bath BA1 1EP, UK</string>
+    <string name="komedia_number">0845 293 8480</string>
+    <string name="komedia_website">komedia.co.uk/bath</string>
+
+    <string name="sub13">Sub 13</string>
+    <string name="sub13_address">Edgar Buildings, 4, George Street, Bath BA1 2EE, UK</string>
+    <string name="sub13_number">01225 466 667</string>
+    <string name="sub13_website">sub13.net</string>
+
+    <string name="cosy_club">Cosy Club</string>
+    <string name="cosy_club_address">Unit R4, Southgate Place, Bath BA1 1AP, UK</string>
+    <string name="cosy_club_number">01225 464 161</string>
+    <string name="cosy_club_website">cosyclub.co.uk</string>
+
+    <string name="all_bar_one">All Bar One Bath</string>
+    <string name="all_bar_one_address">11&#8211;12 High Street, Bath BA1 5AQ, UK</string>
+    <string name="all_bar_one_number">01225 334 614</string>
+    <string name="all_bar_one_website">allbarone.co.uk</string>
+
+    <string name="revolution_bath">Revolution Bath</string>
+    <string name="revolution_bath_address">York Buildings, George Street, Bath BA1 2EB, UK</string>
+    <string name="revolution_bath_number">01225 336 168</string>
+    <string name="revolution_bath_website">revolution-bars.co.uk/bar/bath</string>
+
+    <string name="the_king_of_wessex">The King Of Wessex</string>
+    <string name="the_king_of_wessex_address">5&#8211;10 James Street West, Bath BA1 2BX, UK</string>
+    <string name="the_king_of_wessex_number">01225 303 380</string>
+    <string name="the_king_of_wessex_website">jdwetherspoon.com/pubs/all-pubs/england/somerset/the-king-of-wessex-bath</string>
+
+    <!-- Fun Fragment -->
+    <string name="theatre_royal">Theatre Royal</string>
+    <string name="theatre_royal_address">Saw Close, Bath BA1 1ET</string>
+    <string name="theatre_royal_number">01225 448 844</string>
+    <string name="theatre_royal_website">theatreroyal.org.uk/</string>
+
+    <string name="odeon_cinema">Odeon Cinema Bath</string>
+    <string name="odeon_cinema_address">Kingsmead Complex, James Street West, Bath BA1 2BX, UK</string>
+    <string name="odeon_cinema_number">0333 006 7777</string>
+    <string name="odeon_cinema_website">odeon.co.uk/cinemas/bath/65</string>
+
+    <string name="the_mission_theatre">The Mission Theatre</string>
+    <string name="the_mission_theatre_address">32 Corn Street, Bath BA1 1UF, UK</string>
+    <string name="the_mission_theatre_number">01225 428 600</string>
+    <string name="the_mission_theatre_website">missiontheatre.co.uk</string>
+
+    <string name="bath_sports_and_leisure">Bath Sports and Leisure Centre</string>
+    <string name="bath_sports_and_leisure_address">North Parade Road, Bath BA2 4ET, UK</string>
+    <string name="bath_sports_and_leisure_number">01225 486 905</string>
+    <string name="bath_sports_and_leisure_website">better.org.uk/leisure-centre/banes/bath-sports-and-leisure-centre</string>
+
+    <string name="bath_recreation_limited">Bath Recreation Limited</string>
+    <string name="bath_recreation_limited_address">Pulteney Mews, Bath BA2 4DS, UK</string>
+    <string name="bath_recreation_limited_number">01225 325 200</string>
+    <string name="bath_recreation_limited_website">bathrugby.com</string>
+
+    <string name="bizarre_bath">Bizarre Bath</string>
+    <string name="bizarre_bath_address">Terrace Walk, Bath BA1 1LJ, UK</string>
+    <string name="bizarre_bath_number">01225 335 124</string>
+    <string name="bizarre_bath_website">bizarrebath.co.uk</string>
+
+    <!-- Sights Fragment -->
+    <string name="roman_baths">The Roman Baths</string>
+    <string name="roman_baths_address">Stall St, Bath BA1 1LZ, UK</string>
+    <string name="roman_baths_number">01225 477 785</string>
+    <string name="roman_baths_website">romanbaths.co.uk</string>
+
+    <string name="royal_crescent">Royal Crescent, Bath</string>
+    <string name="royal_crescent_address">Royal Crescent, Bath BA1 2LR, UK</string>
+    <string name="royal_crescent_number">01225 477 101</string>
+    <string name="royal_crescent_website">royalcrescent.co.uk</string>
+
+    <string name="bath_abbey">Bath Abbey</string>
+    <string name="bath_abbey_address">Bath BA1 1LT, UK</string>
+    <string name="bath_abbey_number">01225 422 462</string>
+    <string name="bath_abbey_website">bathabbey.org</string>
+
+    <string name="the_jane_austen_centre">The Jane Austen Centre</string>
+    <string name="the_jane_austen_centre_address">40 Gay Street, Bath BA1 2NT, UK</string>
+    <string name="the_jane_austen_centre_number">01225 443 000</string>
+    <string name="the_jane_austen_centre_website">janeausten.co.uk</string>
+
+    <string name="bath_skyline">Bath Skyline</string>
+    <string name="bath_skyline_address">Bath BA2 6EN, UK</string>
+    <string name="bath_skyline_number">01225 833 977</string>
+    <string name="bath_skyline_website">nationaltrust.org.uk/bath-skyline</string>
+
+    <string name="university_of_bath">University of Bath</string>
+    <string name="university_of_bath_address">Claverton Down, Bath BA2 7AY, UK</string>
+    <string name="university_of_bath_number">01225 388 388</string>
+    <string name="university_of_bath_website">bath.ac.uk</string>
+
+    <string name="parade_gardens">Parade Gardens</string>
+    <string name="parade_gardens_address">Grand Parade, Bath BA2 4DF, UK</string>
+    <string name="parade_gardens_number">01225 477 000</string>
+    <string name="parade_gardens_website">visitbath.co.uk/listings/single/parade-gardens</string>
+
+    <string name="royal_victoria_park">Royal Victoria Park</string>
+    <string name="royal_victoria_park_address">Marlborough Lane, Bath BA1 2NQ, UK</string>
+    <string name="royal_victoria_park_number">01225 394 041</string>
+    <string name="royal_victoria_park_website">visitbath.co.uk/listings/single/royal-victoria-park</string>
+
+    <!-- Transport Fragment -->
+    <string name="bath_bus_station">Bath (Bus Station)</string>
+    <string name="bath_bus_station_address">Southgate Street, Bath BA1 1TP, UK</string>
+    <string name="bath_bus_station_number">0345 602 0121</string>
+    <string name="bath_bus_station_website">firstgroup.com/bristol-bath-and-west</string>
+
+    <string name="bath_spa_station">Bath Spa Railway Station</string>
+    <string name="bath_spa_station_address">Bath, UK</string>
+    <string name="bath_spa_station_number">03457 484 950</string>
+    <string name="bath_spa_station_website">nationalrail.co.uk/stations/bth/details.html</string>
+
+    <string name="oldfield_park_station">Oldfield Park - Lower Bristol Road</string>
+    <string name="oldfield_park_station_address">Bath BA2 3BN, UK</string>
+    <string name="oldfield_park_station_number">03457 484 950</string>
+    <string name="oldfield_park_station_website">nationalrail.co.uk/stations/OLF/details.html</string>
+
+    <string name="odd_down_park_ride">Odd Down Park &amp; Ride Car Park</string>
+    <string name="odd_down_park_ride_address">Bath BA2 2AL, UK</string>
+    <string name="odd_down_park_ride_number">01225 394 041</string>
+    <string name="odd_down_park_ride_website">bathnes.gov.uk/services/parking-and-travel/park-and-ride/41-odd-down-bath-city-centre</string>
+
+    <!-- Tags -->
+    <string name="modern_tag">Modern</string>
+    <string name="european_tag">European</string>
+    <string name="stylish_tag">Stylish</string>
+    <string name="contemporary_tag">Contemporary</string>
+    <string name="steak_tag">Steak</string>
+    <string name="casual_tag">Casual</string>
+    <string name="fireplace_tag">Fireplace</string>
+    <string name="cocktails_tag">Cocktails</string>
+    <string name="italian_tag">Italian</string>
+    <string name="classic_tag">Classic</string>
+    <string name="candlelit_tag">Candlelit</string>
+    <string name="fast_food_tag">Fast food</string>
+    <string name="burgers_tag">Burgers</string>
+    <string name="fries_tag">Fries</string>
+    <string name="milkshakes_tag">Milkshakes</string>
+    <string name="mexican_tag">Mexican</string>
+    <string name="burrito_tag">Burrito</string>
+    <string name="fish_tag">Fish</string>
+    <string name="seafood_tag">Seafood</string>
+    <string name="upscale_tag">Upscale</string>
+    <string name="british_tag">British</string>
+    <string name="pub_tag">Pub</string>
+    <string name="rustic_tag">Rustic</string>
+    <string name="fine_dining_tag">Fine Dining</string>
+    <string name="cafe_tag">Cafe</string>
+    <string name="cosy_tag">Cosy</string>
+    <string name="gluten_free_tag">Gluten Free</string>
+    <string name="friendly_tag">Friendly</string>
+    <string name="colombian_tag">Colombian</string>
+    <string name="south_american_tag">South American</string>
+    <string name="japanese_tag">Japanese</string>
+    <string name="indian_tag">Indian</string>
+    <string name="asian_tag">Asian</string>
+    <string name="nightclub_tag">Nightclub</string>
+    <string name="groups_tag">Groups</string>
+    <string name="bar_tag">Bar</string>
+    <string name="performances_tag">Performances</string>
+    <string name="concerts_tag">Concerts</string>
+    <string name="outdoor_seating_tag">Outdoor seating</string>
+    <string name="food_tag">Food</string>
+    <string name="chic_tag">Chic</string>
+    <string name="international_tag">International</string>
+    <string name="american_tag">American</string>
+    <string name="theatre_tag">Theatre</string>
+    <string name="georgian_tag">Georgian</string>
+    <string name="cinema_tag">Cinema</string>
+    <string name="three_dimen_tag">3D</string>
+    <string name="student_deals_tag">Student deals</string>
+    <string name="sports_tag">Sports</string>
+    <string name="fitness_tag">Fitness</string>
+    <string name="swimming_pool_tag">Swimming pool</string>
+    <string name="gym_tag">Gym</string>
+    <string name="rugby_tag">Rugby</string>
+    <string name="comedy_tag">Comedy</string>
+    <string name="tour_tag">Tour</string>
+    <string name="walking_tag">Walking</string>
+    <string name="bathhouse_tag">Bathhouse</string>
+    <string name="temple_tag">Temple</string>
+    <string name="spa_tag">Spa</string>
+    <string name="architecture_tag">Architecture</string>
+    <string name="landmark_tag">Landmark</string>
+    <string name="sights_tag">Sight</string>
+    <string name="religion_tag">Religion</string>
+    <string name="gothic_tag">Gothic</string>
+    <string name="museum_tag">Museum</string>
+    <string name="speciality_tag">Speciality</string>
+    <string name="literature_tag">Literature</string>
+    <string name="tourism_tag">Tourism</string>
+    <string name="nature_tag">Nature</string>
+    <string name="education_tag">Education</string>
+    <string name="university_tag">University</string>
+    <string name="park_tag">Park</string>
+    <string name="plantlife_tag">Plantlife</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bus_station_tag">Bus station</string>
+    <string name="railway_station_tag">Railway station</string>
+    <string name="park_and_ride_tag">Park &amp; Ride</string>
+</resources>

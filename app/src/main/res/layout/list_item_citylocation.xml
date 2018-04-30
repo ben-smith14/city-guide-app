@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:padding="@dimen/small_space"
+        tools:src="@drawable/menu_gordon_jones" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/small_space"
+        android:layout_marginTop="@dimen/small_space"
+        android:layout_toEndOf="@id/item_image"
+        android:layout_toLeftOf="@id/more_info_arrow"
+        android:layout_toRightOf="@id/item_image"
+        android:layout_toStartOf="@id/more_info_arrow"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            tools:text="@string/menu_gordon_jones" />
+
+        <TextView
+            android:id="@+id/location_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            tools:text="@string/menu_gordon_jones_address" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_space">
+
+            <TextView
+                android:id="@+id/tags_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:layout_marginRight="@dimen/large_space"
+                android:layout_marginEnd="@dimen/large_space"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                tools:text="Modern | European | Stylish" />
+
+            <TextView
+                android:id="@+id/price_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:text="@string/pound_signs" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more_info_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/medium_space"
+        android:src="@drawable/ic_keyboard_arrow_right" />
+
+</RelativeLayout>
